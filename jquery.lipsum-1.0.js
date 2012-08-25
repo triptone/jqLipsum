@@ -24,7 +24,7 @@
 
 		amount = parseInt(amount,10)||5;
 
-		what = typeof what == 'string' && 
+		what = typeof what == 'string' &&
 			  'paras|words|bytes|lists'.indexOf(what) != -1? 
 					what: 'paras';
 
