@@ -1,7 +1,7 @@
 jqLipsum - jQuery plugin 
 ========================
 
-This jQuery plugin generate Lorem ipsum strings into the selected elements
+This is a jquery plugin which generates Lorem ipsum into the html content. Which could be very useful to keep main html codes clean.
 
 Usage
 -----
