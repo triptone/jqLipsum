@@ -38,8 +38,8 @@
 
 			var data = result.lipsum;
 			if (typeof data == 'string') data = [data];
-			var start = tag != '' &&  tag != 'br' ? '<'+tag+'>': '';
-			var end = tag != '' && tag != 'br' ? '</'+tag+'>': '';
+			var start = tag != '' && tag != 'br' ? '<'+tag+'>': '';
+			var end = tag != '' && tag != 'br' ? '</'+tag+'>': '';
 			var glue = tag != ''? (tag != 'br' ? '</'+tag+'><'+tag+'>':'<br /><br />'): '';
 
 			this.append(start+data.join(glue)+end);
