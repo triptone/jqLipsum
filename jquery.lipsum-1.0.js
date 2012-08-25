@@ -1,5 +1,6 @@
 /**
- * lipsum generator jquery plugin using json-lipsum
+ * Lipsum generator jquery plugin using json-lipsum ( http://json-lipsum.appspot.com/ ).
+ * Downloaded from https://github.com/triptone/jqLipsum .
  * @author Ádám Mészáros - triptonemeister@gmail.com
  */
 (function( $ ){
