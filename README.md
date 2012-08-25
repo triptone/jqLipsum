@@ -7,9 +7,10 @@ Usage
 -----
 
 generate random text into document.body :
-
+```javascript
 $(document.body).jqLipsum();
-
+```
 generate random 10 paragraphs not starting with Lorem ipsum:
-
+```javascript
 $(document.body).jqLipsum('p',10,'paras','no');
+```
