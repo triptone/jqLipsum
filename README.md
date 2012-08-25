@@ -10,6 +10,6 @@ generate random text into document.body :
 
 $(document.body).jqLipsum();
 
-generate random 10 paragraphs not starting width Lorem ipsum:
+generate random 10 paragraphs not starting with Lorem ipsum:
 
 $(document.body).jqLipsum('p',10,'paras','no');
